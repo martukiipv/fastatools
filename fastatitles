@@ -1,1 +1,1 @@
-grep -h '>'
+grep -h '>' $(find . -name ‘*fasta’ -or ‘*.fa’)
